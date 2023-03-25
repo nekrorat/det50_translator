@@ -1,0 +1,35 @@
+{
+  "name": "translate_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start-dev": "nodemon --ignore data/ ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.4.7",
+    "@google-cloud/storage": "^5.13.0",
+    "@google-cloud/translate": "^6.2.6",
+    "@google-cloud/vision": "^2.3.8",
+    "axios": "^0.21.1",
+    "countries-list": "^2.6.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9",
+    "request": "^2.88.2",
+    "telegraf": "^4.3.0",
+    "telegraf-session-datastore": "^0.1.9",
+    "telegraf-session-local": "^2.1.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
